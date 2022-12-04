@@ -3,7 +3,7 @@ HTTP Control of copper wire lights
 
 Control copper wire lights over WiFi with an ESP8266.
 
-![Twinkling lights](./lighs.mov)
+![Twinkling lights](./lights.mov)
 
 What this does
 --------------
