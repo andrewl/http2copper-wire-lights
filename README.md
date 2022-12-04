@@ -3,17 +3,20 @@ HTTP Control of copper wire lights
 
 Control copper wire lights over WiFi with an ESP8266.
 
-![Twinkling lights](./lights.mov)
+
 
 What this does
 --------------
 
-It' allows you to control a string of copper wire
+It allows you to control a string of copper wire
 lights over an http API. You can switch them on, off and rotate through a number of patterns 
 (constant on, flashing fast, flashing slow, fading slow, fadingslow, off).
 
 And because we're now API driven you can hook it your lights up to Home Assistant,
 node-red or a home automation platform of your choice.
+
+
+https://user-images.githubusercontent.com/114216/205506635-eeabcf92-20b1-415c-ae01-2569513f0ec1.mov
 
 
 How copper wire lights works
