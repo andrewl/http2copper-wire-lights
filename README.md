@@ -1,30 +1,19 @@
 HTTP Control of copper wire lights
-==================================
+----------------------------------
 
 Control copper wire lights over WiFi with an ESP8266.
+
+![Twinkling lights](./lighs.mov)
 
 What this does
 --------------
 
-When built, you'll have an API by which you can control a string of copper wire
-lights to switch them on, off and rotate through a number of patterns 
+It' allows you to control a string of copper wire
+lights over an http API. You can switch them on, off and rotate through a number of patterns 
 (constant on, flashing fast, flashing slow, fading slow, fadingslow, off).
 
-Becuse we're now API driven you can hook it your lights up to Home Assistant,
+And because we're now API driven you can hook it your lights up to Home Assistant,
 node-red or a home automation platform of your choice.
-
-How to use
-----------
-
-After starting up the lights will be in 'constant on' mode. You can then use the API
-
-The API has the following endpoints
-
-/next - change the lights to display the next pattern in the sequence
-/random - display a random pattern (excluding 'off')
-/off - turn the lights off
-
-The response will always be a json payload describing the pattern.
 
 
 How copper wire lights works
@@ -81,6 +70,21 @@ the reported IP adress is 192.168.0.100 you can visit http://192.168.0.10/next
 to cycle though the light's patterns.
 
 ![Circuit diagram](./http2copper-wire-lights.png)
+
+How to use
+----------
+
+After starting up the lights will be in 'constant on' mode. You can then use the API
+
+The API has the following endpoints
+
+```
+/next - change the lights to display the next pattern in the sequence
+/random - display a random pattern (excluding 'off')
+/off - turn the lights off
+```
+
+The response will always be a json payload describing the pattern.
 
 
 License and liability
