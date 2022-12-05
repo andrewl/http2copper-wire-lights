@@ -47,7 +47,7 @@ You'll need
 - 1 x L923D motor driver switch
 - 1 x Breadboard
 - 1 x Bunch of jumper wires
-- 1 x string of copper lights
+- 1 x string of copper lights (the ones that take 3 x AA batteries - 4.5v)
 
 This is a fairly straightforward breadboard build for anyone who has already put
 together a few breadboarded circuits with an Arduino, ESP8266 or similar.
